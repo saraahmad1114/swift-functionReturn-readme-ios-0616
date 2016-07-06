@@ -1,3 +1,5 @@
+//functions are multidemonsional and can do a lot of things 
+
 func printAge(name: String) {
     print("\(name) is 29")
 }
@@ -14,12 +16,12 @@ func getAge(name: String) -> Int {
     return 29
 }
 
-// Uncomment to see the error
-/*
+
 func badGetAge(name: String) -> Int {
     print("\(name) is 29")
+    return 29
 }
-*/
+
 
 
 let friend = "Emily"
